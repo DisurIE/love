@@ -937,6 +937,9 @@ header {
 }
 
 @media (max-width: 575px) {
+  .row {
+    margin: 0 -15px;
+  }
   .subheader {
     padding-bottom: 10px;
     height: 66px;
@@ -1006,6 +1009,9 @@ header {
   }
   .promo__subtitle {
     font-size: 20px;
+  }
+  .benefits .row {
+    margin: 0 -15px;
   }
   .benefits__card {
     display: -webkit-box;
